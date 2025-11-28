@@ -1,0 +1,91 @@
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            /* колір фону сторінки (темний/чорний) */
+            /* колір тексту (білий) */
+        }
+
+        /* --- Hero Section (Top) --- */
+        .hero {
+            height: 500px;
+            padding: 40px;
+            /* колір фону (темно-сірий або картинка) */
+            /* відображення елементів (flex) */
+            /* напрямок елементів (колонка) */
+            /* вирівнювання по центру (justify-content) */
+        }
+
+        .hero-title {
+            font-size: 60px;
+            margin-bottom: 20px;
+            /* жирний шрифт */
+            /* колір тексту (червоний) */
+        }
+
+        .subscribe-form {
+            margin-top: 20px;
+        }
+
+        .input-email {
+            padding: 10px;
+            width: 300px;
+            /* розмір шрифту */
+            /* округлення кутів */
+        }
+
+        .btn-red {
+            padding: 10px 30px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            /* колір фону (червоний) */
+            /* колір тексту (білий) */
+            /* округлення кутів */
+        }
+
+        /* --- Section General Styles --- */
+        .section {
+            padding: 40px;
+            /* відступ знизу */
+        }
+
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+            /* колір тексту (білий) */
+        }
+
+        /* --- Horizontal Lists (Trailers/Episodes) --- */
+        .horizontal-list {
+            display: flex;
+            gap: 20px;
+            /* перенесення рядків (wrap) */
+        }
+
+        .video-card {
+            width: 300px;
+            /* колір фону (сірий) */
+            /* відступи всередині */
+        }
+
+        .thumbnail {
+            width: 100%;
+            height: 160px;
+            /* колір фону (чорний) */
+            /* відступ знизу */
+        }
+
+        /* --- Footer --- */
+        .footer {
+            padding: 40px;
+            margin-top: 40px;
+            /* колір фону (чорний) */
+            /* колір тексту (сірий) */
+        }
+
+        .footer-link {
+            display: block;
+            margin-bottom: 10px;
+            /* підкреслення тексту (none) */
+            /* колір тексту */
+        }
