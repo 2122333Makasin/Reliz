@@ -75,6 +75,24 @@
             /* відступ знизу */
         }
 
+        img.img1 {
+            background-image: url('img/trailer1.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        img.img2 {
+            background-image: url('img/trailer2.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        img.img3 {
+            background-image: url('img/trailer3.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
         /* --- Footer --- */
         .footer {
             padding: 40px;
