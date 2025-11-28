@@ -7,7 +7,11 @@
 
         /* --- Hero Section (Top) --- */
         .hero {
-            height: 500px;
+          background-image: url('https://i.pinimg.com/736x/85/cd/21/85cd21df4a6ce934e90d46912f9e0777.jpg'); /* Встановлює зображення */
+  background-size: cover; /* Розтягує зображення на всю ширину та висоту */
+  background-repeat: no-repeat; /* Забороняє повторення зображення */
+  background-attachment: fixed; /* Фіксує зображення при прокручуванні */
+  height: 500px;
             padding: 40px;
             /* колір фону (темно-сірий або картинка) */
             /* відображення елементів (flex) */
@@ -69,7 +73,15 @@
         }
 
         .thumbnail {
-            width: 100%;
+          
+  background-image: url('https://upload.wikimedia.org/wikipedia/ru/archive/b/b1/20230716115654%21Stranger_Things_season_1.jpg'); /* Встановлює зображення */
+  background-size: cover; /* Розтягує зображення на всю ширину та висоту */
+  background-repeat: no-repeat; /* Забороняє повторення зображення */
+  
+  
+  
+
+  width: 100%;
             height: 160px;
             /* колір фону (чорний) */
             /* відступ знизу */
@@ -89,3 +101,5 @@
             /* підкреслення тексту (none) */
             /* колір тексту */
         }
+         
+ 
