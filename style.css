@@ -5,6 +5,7 @@
 body {
   margin: 0;
   font-family: sans-serif;
+  padding-top: 130px;
   /* колір фону сторінки (темний/чорний) */
   /* колір тексту (білий) */
 }
@@ -106,14 +107,14 @@ header {
   /* background-image:  url('https://upload.wikimedia.org/wikipedia/ru/archive/b/b1/20230716115654%21Stranger_Things_season_1.jpg'); Встановлює зображення */
   background-size: cover; /* Розтягує зображення на всю ширину та висоту */
   background-repeat: no-repeat; /* Забороняє повторення зображення */
-overflow: hidden;
+  overflow: hidden;
   width: 100%;
   height: 160px;
   /* колір фону (чорний) */
   /* відступ знизу */
 }
-img{
-max-width: 100%;
+img {
+  max-width: 100%;
 }
 img.img1 {
   background-image: url('img/trailer1.jpg');
