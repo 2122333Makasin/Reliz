@@ -1,123 +1,150 @@
-        body {
-            margin: 0;
-            font-family: sans-serif;
-            /* колір фону сторінки (темний/чорний) */
-            /* колір тексту (білий) */
-        }
+body {
+  margin: 0;
+  font-family: sans-serif;
+  /* колір фону сторінки (темний/чорний) */
+  /* колір тексту (білий) */
+}
 
-        /* --- Hero Section (Top) --- */
-        .hero {
-          background-image: url('https://i.pinimg.com/736x/85/cd/21/85cd21df4a6ce934e90d46912f9e0777.jpg'); /* Встановлює зображення */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: darkred;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-link {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* --- Hero Section (Top) --- */
+.hero {
+  background-image: url('https://i.pinimg.com/736x/85/cd/21/85cd21df4a6ce934e90d46912f9e0777.jpg'); /* Встановлює зображення */
   background-size: cover; /* Розтягує зображення на всю ширину та висоту */
   background-repeat: no-repeat; /* Забороняє повторення зображення */
   background-attachment: fixed; /* Фіксує зображення при прокручуванні */
   height: 500px;
-            padding: 40px;
-            /* колір фону (темно-сірий або картинка) */
-            /* відображення елементів (flex) */
-            /* напрямок елементів (колонка) */
-            /* вирівнювання по центру (justify-content) */
-        }
+  padding: 40px;
+  /* колір фону (темно-сірий або картинка) */
+  /* відображення елементів (flex) */
+  /* напрямок елементів (колонка) */
+  /* вирівнювання по центру (justify-content) */
+}
 
-        .hero-title {
-            font-size: 60px;
-            margin-bottom: 20px;
-            /* жирний шрифт */
-            /* колір тексту (червоний) */
-        }
+.hero-title {
+  font-size: 60px;
+  margin-bottom: 20px;
+  /* жирний шрифт */
+  /* колір тексту (червоний) */
+}
 
-        .subscribe-form {
-            margin-top: 20px;
-        }
+.subscribe-form {
+  margin-top: 20px;
+}
 
-        .input-email {
-            padding: 10px;
-            width: 300px;
-            /* розмір шрифту */
-            /* округлення кутів */
-        }
+.input-email {
+  padding: 10px;
+  width: 300px;
+  /* розмір шрифту */
+  /* округлення кутів */
+}
 
-        .btn-red {
-            padding: 10px 30px;
-            border: none;
-            cursor: pointer;
-            font-size: 18px;
-            /* колір фону (червоний) */
-            /* колір тексту (білий) */
-            /* округлення кутів */
-        }
+.btn-red {
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  /* колір фону (червоний) */
+  /* колір тексту (білий) */
+  /* округлення кутів */
+}
 
-        /* --- Section General Styles --- */
-        .section {
-            padding: 40px;
-            /* відступ знизу */
-        }
+/* --- Section General Styles --- */
+.section {
+  padding: 40px;
+  /* відступ знизу */
+}
 
-        .section-title {
-            font-size: 24px;
-            margin-bottom: 20px;
-            /* колір тексту (білий) */
-        }
+.section-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  /* колір тексту (білий) */
+}
 
-        /* --- Horizontal Lists (Trailers/Episodes) --- */
-        .horizontal-list {
-            display: flex;
-            gap: 20px;
-            /* перенесення рядків (wrap) */
-        }
+/* --- Horizontal Lists (Trailers/Episodes) --- */
+.horizontal-list {
+  display: flex;
+  gap: 20px;
+  /* перенесення рядків (wrap) */
+}
 
-        .video-card {
-            width: 300px;
-            /* колір фону (сірий) */
-            /* відступи всередині */
-        }
+.video-card {
+  width: 300px;
+  /* колір фону (сірий) */
+  /* відступи всередині */
+}
 
-        .thumbnail {
-          
+.thumbnail {
   background-image: url('https://upload.wikimedia.org/wikipedia/ru/archive/b/b1/20230716115654%21Stranger_Things_season_1.jpg'); /* Встановлює зображення */
   background-size: cover; /* Розтягує зображення на всю ширину та висоту */
   background-repeat: no-repeat; /* Забороняє повторення зображення */
-  
-  
-  
 
   width: 100%;
-            height: 160px;
-            /* колір фону (чорний) */
-            /* відступ знизу */
-        }
+  height: 160px;
+  /* колір фону (чорний) */
+  /* відступ знизу */
+}
 
-        img.img1 {
-            background-image: url('img/trailer1.jpg');
-            background-size: cover;
-            background-position: center;
-        }
+img.img1 {
+  background-image: url('img/trailer1.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
-        img.img2 {
-            background-image: url('img/trailer2.jpg');
-            background-size: cover;
-            background-position: center;
-        }
+img.img2 {
+  background-image: url('img/trailer2.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
-        img.img3 {
-            background-image: url('img/trailer3.jpg');
-            background-size: cover;
-            background-position: center;
-        }
+img.img3 {
+  background-image: url('img/trailer3.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
-        /* --- Footer --- */
-        .footer {
-            padding: 40px;
-            margin-top: 40px;
-            /* колір фону (чорний) */
-            /* колір тексту (сірий) */
-        }
+/* --- Footer --- */
+.footer {
+  padding: 40px;
+  margin-top: 40px;
+  background: darkred;
+  color: white;
 
-        .footer-link {
-            display: block;
-            margin-bottom: 10px;
-            /* підкреслення тексту (none) */
-            /* колір тексту */
-        }
-         
- 
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  /* колір фону (чорний) */
+  /* колір тексту (сірий) */
+}
+
+.footer-link {
+  display: block;
+  margin-bottom: 10px;
+  /* підкреслення тексту (none) */
+  /* колір тексту */
+}
